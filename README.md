@@ -10,14 +10,15 @@ To train a PINN to approximate the wavefunctions of a quantum particle in a 1D i
 
 The time-independent Schrödinger equation for a 1D box of length \( L \) is:
 
-\[
-\frac{1}{2} \frac{d^2\psi(x)}{dx^2} = E \psi(x), \quad x \in (0, L)
-\]
+$$
+-\frac{1}{2} \frac{d^2 \psi(x)}{dx^2} = E \psi(x), \quad x \in (0, L)
+$$
 
-With boundary conditions:  
-\[
+With boundary conditions:
+
+$$
 \psi(0) = \psi(L) = 0
-\]
+$$ 
 
 Analytical solutions exist, but this PINN approach allows for generalization and extension to more complex quantum systems.
 
